@@ -19,3 +19,25 @@ body {
   padding: 24px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.primary {
+  background: #6c25ff;
+  color: white;
+}
+
+.secondary {
+  background: #ede5ff;
+  color: #6c25ff;
+}
+
+.disabled {
+  opacity: 0.5;
+}
